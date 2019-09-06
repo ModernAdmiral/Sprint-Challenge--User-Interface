@@ -80,7 +80,7 @@ p {
     margin-bottom: 40px;
 }
 
-#top-nav {
+.top-nav {
     margin-top: 25px;
     display: flex;
     justify-content: space-around;
@@ -96,7 +96,7 @@ p {
     margin-top: 20px;
 }
 
-#top-nav a {
+.top-nav a {
     margin-left: 70px;
     text-decoration: none;
     color: black;
@@ -106,6 +106,17 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-secondary-container {
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed;
+}
+
+.about-about {
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .middle-content {
@@ -174,6 +185,33 @@ p {
     background-color: dodgerblue;
  }
 
+ .card-container {
+    display: flex;
+    flex-flow: wrap;
+ }
+
+ .card {
+     width: 45%;
+     margin: 20px;
+     border-bottom: 1px dashed;
+ }
+
+ .card img {
+     margin-bottom: 10px;
+ }
+
+ button {
+     padding: 10px 20px;
+     border: 2px solid;
+     border-radius: 10px;
+     font-size: 1rem;
+     margin: 20px 0px;
+ }
+
+.secondary-bottom-content {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -203,6 +241,6 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: lightgrey;
     text-decoration: none;
 }
